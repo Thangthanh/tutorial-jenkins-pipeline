@@ -1,10 +1,10 @@
 pipeline {
   agent any
   environment {
-    FRONTEND_GIT = 'https://github.com/sontung0/tutorial-jenkins-frontend.git'
+    FRONTEND_GIT = 'https://github.com/Thangthanh/tutorial-jenkins-frontend.git'
     FRONTEND_BRANCH = 'master'
-    FRONTEND_IMAGE = 'sontung0/tutorial-jenkins-frontend'
-    FRONTEND_SERVER = '1.2.3.4'
+    FRONTEND_IMAGE = 'cretete/tutorial-jenkins-frontend'
+    FRONTEND_SERVER = '18.138.103.83'
     FRONTEND_SERVER_DIR = './app'
   }
   stages {
